@@ -1,0 +1,16 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+
+<beans xmlns = "http://www.springframework.org/schema/beans"
+   xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation = "http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+  
+   
+     <bean id = "employeeDetailsConstructor" class = "com.example.ust.mavenproject.Demo.EmployeeEntity">
+			<constructor-arg value="001" index="0" type="String"></constructor-arg> 
+			<constructor-arg value="thiru"  index="1" type="String"></constructor-arg>
+			<constructor-arg value="chennai"  index="2" type="String"></constructor-arg>
+   </bean>
+
+</beans>
